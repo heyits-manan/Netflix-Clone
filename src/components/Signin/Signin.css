@@ -1,0 +1,143 @@
+div.signin {
+  background-color: black;
+  height: 100vh;
+  opacity: 99%;
+}
+
+div.main_signin {
+  position: relative;
+  color: white;
+  left: 40vw;
+  top: 20vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+div.main_signin {
+  background: rgb(0, 0, 0, 0.7);
+  position: relative;
+  width: 23vw;
+  height: 70vh;
+  padding: 50px 50px;
+  top: 10vh;
+  left: 38vw;
+  z-index: inherit;
+}
+div.main_signin > Text-signin {
+  font-size: 32px;
+}
+
+img.bg {
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 45%;
+  transform: scale(1);
+}
+
+img.logo_signin {
+  height: 13%;
+  position: absolute;
+  top: -2vh;
+  left: 2vw;
+}
+
+form.signin {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 17vw;
+}
+
+form.signin > input.email {
+  padding: 10px 15px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #333333;
+  border: none;
+  height: 6vh;
+  color: white;
+}
+
+form.signin > input.email::placeholder {
+  color: #bb9e9e;
+}
+
+form.signin > input.password {
+  padding: 10px 15px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #333333;
+  border: none;
+  margin-bottom: 30px;
+  height: 6vh;
+  color: white;
+}
+
+form.signin > input.password::placeholder {
+  color: #bb9e9e;
+}
+
+form.signin > button.SignIn {
+  background-color: #e50914;
+  color: white;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  position: relative;
+  top: -1vh;
+}
+
+div.options {
+  display: flex;
+  flex-direction: row;
+  gap: 8em;
+  top: -2vh;
+  left: 0.6vw;
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+}
+
+Text-RM > label {
+  color: rgb(124, 103, 103);
+  display: flex;
+  flex-direction: row;
+  gap: 0.3em;
+  user-select: none;
+}
+
+div.signupRedirect {
+  display: flex;
+  flex-direction: row;
+  gap: 0.3em;
+  font-size: 16px;
+  margin-top: 5vh;
+  margin-left: 0.5vw;
+}
+
+div.signupRedirect > span {
+  color: grey;
+}
+div.signupRedirect > a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+div.signupRedirect > a:hover {
+  text-decoration: underline;
+}
+
+div.captcha-msg {
+  position: relative;
+  font-weight: lighter;
+  font-size: 13px;
+  color: grey;
+  font-weight: bold;
+  left: 0.5vw;
+  top: -1vh;
+}

@@ -1,0 +1,346 @@
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+/* Header  */
+.home {
+  background-color: black;
+}
+
+.bgImg {
+  /* z-index: -1; */
+  position: absolute;
+  height: 800px;
+  width: 1900px;
+  transform: scale(1.2);
+  top: -15vh;
+  /* left: 25vw; */
+  opacity: 40%;
+  box-shadow: 0px 6px 0px rgb(66, 60, 60);
+}
+
+.logo {
+  /* z-index: 1; */
+  position: absolute;
+  top: -1vh;
+  width: 11.25rem;
+  left: 18.5vw;
+  box-shadow: 0px 0px -100px black;
+  border-radius: 200px;
+}
+div.top > ul.signin {
+  position: absolute;
+  color: white;
+  background-color: #e50914;
+  font-size: 14px;
+  border: none;
+  top: 2.2vh;
+  left: 76vw;
+  width: 4.8rem;
+  height: 2rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 50px 20px black;
+  list-style: none;
+}
+div.top > ul.signin:hover {
+  opacity: 90%;
+}
+
+div.intro {
+  position: relative;
+  top: 29vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.intro > Text-1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+}
+div.intro > Text-2 {
+  font-size: 24px;
+  margin: 10px 0px 20px;
+  color: white;
+}
+div.intro > Text-3 {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 12px;
+}
+div.intro > nav > form > input {
+  padding: 20px;
+  margin-right: 10px;
+  width: 375px;
+  height: 55px;
+  background: rgba(20, 20, 20, 0.6);
+  border: none;
+  box-shadow: 0px 0px 2px white;
+  border-radius: 3px;
+  color: white;
+}
+div.intro > nav > form > input::placeholder {
+  color: white;
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  opacity: 0.7;
+}
+
+div.intro > nav > form > .getStarted {
+  background-color: #e50914;
+  width: 190px;
+  height: 55px;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 0px;
+  border-radius: 5px;
+  border: none;
+}
+div.intro > nav > form > .getStarted:hover {
+  opacity: 90%;
+}
+div.intro > nav > form > p {
+  color: red;
+  position: absolute;
+  top: 8vh;
+  left: 0.8vw;
+  font-weight: 500;
+}
+
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+/*  Second   */
+
+div.second {
+  background-color: black;
+  position: relative;
+  top: 52vh;
+  height: 530px;
+  width: 100%;
+  box-shadow: 0px 12px 0px rgb(26, 25, 25);
+}
+
+div.second_text {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  position: absolute;
+  left: 20vw;
+  top: 20vh;
+  gap: 1.2em;
+}
+
+div.second_text > Text-1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+div.second_text > Text-2 {
+  font-size: 24px;
+  width: 39rem;
+}
+
+div.second_visuals {
+  position: relative;
+  left: 51vw;
+}
+
+img.tvImg {
+  position: relative;
+  z-index: 2;
+}
+
+div.second_visuals > video {
+  position: relative;
+  height: 250px;
+  top: 12vh;
+  left: -27.5vw;
+  z-index: 0;
+}
+
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* --------------------------------------- */
+/*    Third   */
+
+div.third {
+  background-color: black;
+  position: relative;
+  top: 60vh;
+  height: 530px;
+  width: 100%;
+  box-shadow: 0px 7px 0px rgb(66, 60, 60);
+}
+
+div.third_text {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  position: absolute;
+  left: 50vw;
+  top: 14vh;
+  width: 40em;
+  gap: 1em;
+  z-index: 3;
+}
+
+div.third_text > Text-1 {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 3.5rem;
+}
+
+div.third_text > Text-2 {
+  font-size: 24px;
+  width: 39rem;
+}
+
+div.third_visuals {
+  position: relative;
+  left: 4vw;
+}
+
+div.third_visuals > img.stranger1 {
+  height: 435px;
+  position: relative;
+  left: 15vw;
+}
+
+div.box {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  position: relative;
+  top: -14vh;
+  left: 45vh;
+  background-color: black;
+  height: 104px;
+  width: 318px;
+  border-radius: 17px;
+  box-shadow: 0px 0px 0px 1px grey;
+  padding: 10px 18px;
+}
+
+div.box > img.stranger2 {
+  height: 80px;
+}
+
+div.box > div.box_text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 19px;
+}
+
+div.box_text > Text-1 {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+div.box_text > Text-2 {
+  color: blue;
+  font-size: 14px;
+}
+
+div.downloadImg > img {
+  height: 50px;
+  border-radius: 40px;
+  position: relative;
+  top: 15px;
+  left: 10px;
+}
+
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* --------------------------------------- */
+
+/*    Fourth   */
+
+div.fourth {
+  background-color: black;
+  position: relative;
+  top: 63vh;
+  height: 400px;
+  width: 100%;
+  box-shadow: 0px 7px 0px rgb(66, 60, 60);
+}
+
+div.fourth_text {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  position: relative;
+  top: -2vh;
+  left: 28vw;
+  /* z-index: 3; */
+  padding: 72px 0px;
+}
+
+div.fourth_text > Text-1 {
+  font-size: 48px;
+  font-weight: bold;
+  width: 400px;
+  height: 150px;
+  line-height: 4rem;
+}
+
+div.fourth_text > Text-2 {
+  font-size: 24px;
+  width: 421px;
+  height: 90px;
+}
+
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* --------------------------------------- */
+
+/*    Fifth  */
+
+div.fifth {
+  background-color: black;
+  position: relative;
+  top: 63.6vh;
+  height: 550px;
+  width: 100%;
+  box-shadow: 0px 7px 0px rgb(66, 60, 60);
+}
+
+div.fifth_text {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  position: relative;
+  top: 18vh;
+  left: 50vw;
+  gap: 1rem;
+}
+
+div.fifth_text > Text-1 {
+  font-size: 48px;
+  font-weight: bold;
+  width: 580px;
+  height: 62px;
+  line-height: 4rem;
+}
+
+div.fifth_text > Text-2 {
+  font-size: 24px;
+  width: 580px;
+  height: 90px;
+}
+
+div.fifth_visual {
+  position: relative;
+  top: -13vh;
+  left: 19vw;
+}

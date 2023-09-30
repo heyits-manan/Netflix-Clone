@@ -1,0 +1,96 @@
+img.logo_reg {
+  height: 13vh;
+  position: absolute;
+  top: -2vh;
+  left: 2vw;
+}
+
+div.header_reg {
+  display: flex;
+  flex-direction: row;
+  gap: 93%;
+}
+hr {
+  position: relative;
+  top: 5vh;
+  opacity: 20%;
+}
+div.reg_text {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 10vh;
+  left: 40vw;
+}
+
+div.reg_text > Text-1 {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+div.reg_text > Text-2 {
+  font-size: 32px;
+  font-weight: 500;
+  width: 20vw;
+  text-align: start;
+  line-height: 1.2em;
+  margin-bottom: 10px;
+}
+div.reg_text > Text-3 {
+  font-size: 18px;
+  width: 17vw;
+  text-align: start;
+}
+
+form.emailpassword {
+  position: relative;
+  left: 40vw;
+  top: 12vh;
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  gap: 1em;
+}
+#emailReg {
+  height: 5vh;
+  padding: 10px;
+  border-radius: 5px;
+
+  border: 1px solid black;
+}
+
+#passReg {
+  height: 5vh;
+  padding: 10px;
+
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+button.reg_button {
+  height: 6vh;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+}
+
+button.reg_button:hover {
+  opacity: 80%;
+}
+
+form > p.email {
+  position: absolute;
+  left: 21vw;
+  top: 1vh;
+  color: red;
+  width: 25em;
+}
+
+form > p.password {
+  position: absolute;
+  left: 21vw;
+  top: 8vh;
+  color: red;
+  width: 25em;
+}

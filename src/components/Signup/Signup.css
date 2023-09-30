@@ -1,0 +1,65 @@
+.signup {
+  background-color: white;
+}
+
+img.logo_signup {
+  height: 13vh;
+  position: absolute;
+  top: -2vh;
+  left: 2vw;
+}
+
+div.header_signup {
+  display: flex;
+  flex-direction: row;
+  gap: 93%;
+}
+hr {
+  position: relative;
+  top: 5vh;
+  opacity: 20%;
+}
+
+div.signup_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 25vh;
+}
+
+div.signup_text > Text-1 {
+  font-size: 13px;
+}
+div.signup_text > Text-2 {
+  font-size: 28px;
+  font-weight: bold;
+  width: 15vw;
+  text-align: center;
+}
+div.signup_text > Text-3 {
+  font-size: 18px;
+  width: 15vw;
+  text-align: center;
+}
+
+button.signup_button_1 {
+  position: relative;
+  top: 27vh;
+  left: 42vw;
+  width: 16vw;
+  height: 6vh;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+}
+
+div.footer {
+  background-color: #f3f3f3;
+  height: 210px;
+  width: 100%;
+  position: absolute;
+  top: 77vh;
+}
